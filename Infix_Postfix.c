@@ -50,6 +50,7 @@ void main(){
     for(int i = 0; i<strlen(a); i++){
         if(a[i] == ' ')
             continue;
+            
         if(isalnum(a[i])==1){
             printf("%c", a[i]);
         }
